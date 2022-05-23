@@ -3,9 +3,6 @@
 #' @export
 deflate <- function(values, dates, ref_date) {
 
-  dates <- lubridate::floor_date(dates, unit = "month")
-  dates <- lubridate::`%m-%`(dates, months(1))
-
   ipeadata <- "http://ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='%s')"
 
   ipca <- httr2::request(sprintf(ipeadata, "PRECOS12_IPCA12"))
