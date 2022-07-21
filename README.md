@@ -1,2 +1,2 @@
 # taxbr
-A forecasting system for Brazilian tax revenues.
+A forecasting system for Brazilian tax revenues
