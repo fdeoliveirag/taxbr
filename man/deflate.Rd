@@ -2,10 +2,10 @@
 % Please edit documentation in R/deflate.R
 \name{deflate}
 \alias{deflate}
-\title{Deflate monetary values by IPCA}
+\title{Deflate Monetary Values By IPCA}
 \usage{
 deflate(values, dates, ref_date)
 }
 \description{
-Deflate monetary values by IPCA
+Deflate Monetary Values By IPCA
 }
