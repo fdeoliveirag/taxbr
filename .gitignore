@@ -2,3 +2,4 @@
 *.Rmd
 *.xlsx
 /notebooks
+/posts
