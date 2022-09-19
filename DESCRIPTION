@@ -1,0 +1,26 @@
+Package: taxbr
+Title: Forecasting Brazilian Tax Revenues
+Version: 0.0.0.9000
+Authors@R: 
+    person("Filippe", "O. Gonçalves", , "fdeoliveirag@outlook.com", role = c("aut", "cre"))
+Description: Master of Science Thesis - Economics Graduate Program, Federal University of Pernambuco (UFPE)
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    devtools,
+    dplyr,
+    here,
+    httr2,
+    purrr,
+    readr,
+    rlang,
+    tibble,
+    yardstick
+URL: https://github.com/fdeoliveirag/taxbr
+BugReports: https://github.com/fdeoliveirag/taxbr/issues
